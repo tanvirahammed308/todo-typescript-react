@@ -22,9 +22,9 @@
 }
 .header{
   font-size: 30px;
-  color: white;
+  color: rgb(0, 255, 85);
   text-transform: uppercase;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(26, 199, 41);
   padding: 10px 0;
   z-index: 5;
  
