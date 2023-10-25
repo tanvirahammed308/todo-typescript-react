@@ -45,7 +45,7 @@
     display: flex;
    
     width: 25%;
-    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://global-uploads.webflow.com/5e3cf9ae96c8dfcfd69fa2f9/636a977ec5bb9cd70bf729dc_beautyroom.jpg');
+    background-image:  linear-gradient(to right, rgba(80, 231, 10, 0.925), rgba(49, 135, 175, 0.5)),url('https://global-uploads.webflow.com/5e3cf9ae96c8dfcfd69fa2f9/636a977ec5bb9cd70bf729dc_beautyroom.jpg');
     background-position: bottom;
     background-size: cover;
     padding: 20px;
@@ -54,9 +54,16 @@
     
 }
 .single-todo-text{
-   color: white;
+   color:black;
+  /* background-color: yellow; */
     flex: 1;
     font-size: 15px;
+    z-index: 5;
+}
+.single-todo-text:focus{
+    outline: none;
+    
+   
 }
 .icon{
     color: white;
@@ -70,6 +77,9 @@
     .input-btn{
         position: absolute;
         right:145px;
+    }
+    .todo-list{
+        width: 90%;
     }
     .single-todo{
         width: 45%;
